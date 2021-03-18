@@ -1,0 +1,177 @@
+Open_PDKs, a PDK installer for open-source EDA tools.
+	•	Magic, the VLSI layout editor, extraction, and DRC tool.
+	•	XCircuit, the circuit drawing and schematic capture tool.
+	•	IRSIM, the switch-level digital circuit simulator.
+	•	Netgen, the circuit netlist comparison (LVS) and netlist conversion tool.
+	•	Qrouter, the over-the-cell (sea-of-gates) detail router.
+	•	Qflow, a complete digital synthesis design flow using open-source software and open-source standard cell libraries.
+	•	PCB, the printed circuit board layout editor.
+	•	Static Free Software : Electric - used to draw schematics and to do integrated circuit layout. It can also handle hardware description languages such as VHDL 
+  and Verilog. The system has many analysis and synthesis tools, including Design rule checking, Simulation, Routing, Layout vs. Schematic, Logical Effort, and 
+  more.
+
+
+Tool
+Description
+Type 
+Function
+
+Xcircuit
+A general-purpose drawing program and also a specific-purpose CAD program for circuit schematic drawing and schematic capture.
+Mixed signal
+Schematic
+
+Ktechlab
+Is a schematic capture and simulator.it is a an IDE for microcontrollers and electronics. It supports circuit simulation, program development for microcontrollers and simulating the programmed microcontroller together with its application circuit.
+Mixed signal
+Schematic, simulator and microcontroller
+
+gnucap
+A general purpose circuit simulator with its engine designed to do true mixed-mode simulation.The primary component is a general purpose circuit simulator. It performs nonlinear dc and transient analyses, fourier analysis, and ac analysis. Spice compatible models for the MOSFET (level 1-7), BJT, and diode are included in this release. 
+Mixed signal
+Circuit simulator
+
+ngspice
+A mixed level/signal circuit simulator
+Mixed signal
+Circuit simulator
+
+qucs (Quite Universal Circuit Simulator)
+Qucs is a circuit simulator with graphical user interface. The software aims to support all kinds of circuit simulation types, e.g. DC, AC, S-parameter and harmonic balance analysis. Pure digital simulations are also supported using VHDL and/or Verilog.
+Mixed signal 
+Simulator + Verilog + VHDL
+
+IRSIM
+Is a switch-level simulator originally originating from Stanford
+Mixed signal
+Circuit simulator
+
+Icarus Verilog
+Is a Verilog simulation and synthesis tool. It operates as a compiler, compiling source code written in Verilog (IEEE-1364) into some target format. For batch simulation, the compiler can generate an intermediate form called vvp assembly. This intermediate form is executed by the "vvp'' command. For synthesis, the compiler generates netlists in the desired format.
+Digital
+Simulator & Synthesis
+
+Verilator
+Verilator is the fastest free Verilog HDL simulator. It compiles synthesizable Verilog, plus some PSL, SystemVerilog and Synthesis assertions into C++ or SystemC code. It is designed for large projects where fast simulation performance is of primary concern, and is especially well suited to create executable models of CPUs for embedded software design teams.
+Digital
+Verilog HDL simulator & synthesis
+
+ghdl
+Is a tool to generate metal layers and vias to physically connect together a netlist in a VLSI fabrication technology. It is a maze router, otherwise known as an "over-the-cell" router or "sea-of-gates" router. 
+Digital
+VHDL simulator (doesn't do synthesis)
+
+ChipVault
+Is a chip development program for organizing VHDL and Verilog designs. ChipVault displays designs hierarchically and provides for rapid design navigation and editor launching. ChipVault provides hooks for performing bottom-up tasks such as launching RTL compilers, synthesis, block generation and instantiation, and includes simple to use Revision Control and Issue Tracking systems to help facilitate large group design projects with multiple designers and hundreds of design files.
+Digital
+VHDL & Verilog RTL compiler & synthesis
+GTKwave
+Is a waveform viewer that can view VCD files produced by most Verilog simulation tools, as well as LXT files produced by certain Verilog simulation tools.
+Mixed signal
+Wave viewer
+
+Gwave
+Is a waveform viewer for the output of analog electronic circuit simulators such as spice. It displays the data as 2-D plots, andallows for interactive scrolling, zooming, and measuring of thewaveforms
+Analog
+Wave viewer
+
+LabPlot
+Is a free software data analysis and visualization application built on the KDE Platform
+Analog
+Wave viewer
+
+gEDA Suite
+ A full suite of Electronic Design Automation tools.
+Mixed signal
+Full suite (electrical circuit design, schematic capture, analog and digital simulation, prototyping, and production)
+
+Alliance
+Is a complete set of free CAD tools and portable libraries for VLSI design. It includes a VHDL compiler and simulator, logic synthesis tools, and automatic place and route tools. A complete set of portable CMOS libraries is provided, including a RAM generator, a ROM generator and a data-path compiler.
+Mixed signal
+Design flow from VHDL up to layout, (VHDL Compilation and Simulation,
+Model checking and formal proof, RTL and Logic synthesis, Data-Path compilation, Macro-cells generation, Place and route, Layout edition, Netlist extraction and verification, Design rules checking)
+
+Electric
+Electric is a sophisticated electrical CAD system that can handle many forms of circuit design, including custom IC layout (ASICs), schematic drawing, hardware description language specifications, and electro-mechanical hybrid layout
+Mixed signal
+From HDL to layout and some extra
+
+Magic
+Magic is a venerable VLSI layout tool. Magic VLSI remains popular with universities and small companies. Magic is widely cited as being the easiest tool to use for circuit layout, even for people who ultimately rely on commercial tools for their product design flow.
+Mixed signal 
+Circuit Layout
+
+Toped
+Is a cross-platform IC layout editor supporting GDS, OASIS and CIF formats. It is an open source project licensed under the GNU General Public License. The project is under active development. focuses on rendering speed and quality of the screen output.
+IC layout editor
+
+Netgen
+A tool for comparing netlists, in analog or mixed-signal circuits that cannot be simulated in reasonable time.
+Mixed signal 
+LVS
+
+Dragon
+Dragon is a fast, effective standard-cell placement tool for both variable-die and fixed-die ASIC design. It was designed and implemented by NuCAD group in Dept. of ECE, Northwestern University, and ERLAB in Computer Science Dept., UCLA. Dragon does wirelength and routability optimization by combining powerful hypergraph partitioning package (hMetis) with simulated annealing technique. It is a university tool that produces high-quality placement comparable with commercial software such as ITools (formerly TimberWolf) and Cadence QPlace.
+Digital
+Placement
+
+Fairly Good Router (FGR)
+FGR is free open-source software for global routing, based on Lagrange Multipliers --- an approach similar to what industry routers use, but with greater mathematical rigor and robust performance. Unlike most other academic tools, FGR is self-contained and does not rely on ILP or external Steiner-tree constructors.
+Digital
+Router
+
+Qrouter
+Is a tool to generate metal layers and vias to physically connect together a netlist in a VLSI fabrication technology. It is a maze router, otherwise known as an "over-the-cell" router or "sea-of-gates" router. 
+Digital
+Detail router
+
+OS-VVM
+Open Source - VHDL Verification Methodology (OS-VVM) delivers advanced verification test methodologies, including Constrained and Coverage-driven Randomization, as well as Functional Coverage, providing advanced features to VHDL design engineers while enabling them to continue to develop using VHDL.
+Digital
+Verification
+
+Teal
+Helps you perform verification by providing a set of capabilities that access HDL signals and enable actions based on changes in the values of these signals. 
+Digital
+Verification
+
+Jove
+Is a set of Java APIs and tools to enable Verilog hardware design verification of ASICs and FPGAs using the Java programming language.
+Digital
+Verification
+
+PCB
+Is free software for designing printed circuit board layouts. It has many features and is capable of professional-quality output.
+PCB
+The printed circuit board layout editor
+
+FreePCB
+Is a free, open-source PCB editor for Microsoft Windows, released under the GNU General Public License. It was designed to be easy to learn and easy to use, yet capable of professional-quality work.
+PCB
+PCB editor
+
+Fritzing
+Integrated tool for breadboard, schematic, and PCB design. Targeted at non-engineers (designers, artists, researchers, hobbyists) and users of micro-controller platforms such as Arduino.
+PCB
+Breadboard, schematic, and PCB design
+
+KiCad
+KiCad provides for all design stages through the same interface: Schematic capture, PCB layout, Gerber generation/visualization, and library editing are all standard features. It also has a "3D view" feature for PCBs.
+It is available for all three major operating systems
+PCB
+PCB schematics and layout
+
+OMNeT++
+Is a discrete event simulation environment. Its primary application area is the simulation of communication networks, but because of its generic and flexible architecture, is successfully used in other areas like the simulation of complex IT systems, queueing networks or hardware architectures as well.
+Electronic system level
+Detail router
+
+SystemC
+Clunky class library for digital design.
+Electronic system level
+Clunky class library for digital design
+
+myHDL
+Is a Python package for using Python as a hardware description language.
+Electronic system level
+Hardware description language
