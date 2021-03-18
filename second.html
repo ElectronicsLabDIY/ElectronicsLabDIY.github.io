@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Java Script Experiment</title>
+	<script type="text/javascript">
+		function check() 
+
+		{
+			var x= document.getElementById("key").value;
+			if (x.length < 1) 
+				{
+					document.getElementById("msg").innerHTML= "Please enter something";
+				}
+				else
+				{
+					document.getElementById("msg").innerHTML= "Congrats! blur is working";
+				}
+				
+		}	 		 		
+
+	</script>
+
+</head>
+
+
+<body>
+	 
+	<input id="key" type="text" onblur="check();">
+ 
+	<h1 id="msg"></h1>
+</body>
+</html>
