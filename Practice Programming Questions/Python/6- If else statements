@@ -1,0 +1,22 @@
+Programming Practice - statements - if else
+Note - Questions are taken from various websites on internet.
+
+***************************************************************** 
+
+Q-1(II) 
+
+Write an if statement that asks for the user's name via input() function. If the name is "Bond" make it print "Welcome on board 007." Otherwise make it print "Good morning NAME".  
+
+******************************************* 
+
+Q1(III) 
+
+Write a program to check whether a person is eligible for voting or not. (accept age from user) 
+
+******************************************* 
+
+Q-1(IV) 
+
+Write a program to display "Hello" if a number entered by user is a multiple of five , otherwise print "Bye". 
+
+************************************************ 
