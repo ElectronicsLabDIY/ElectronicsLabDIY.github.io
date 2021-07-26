@@ -1,0 +1,126 @@
+Questions selected from various resources abailable on web.
+
+5(i)
+Below are the two lists convert it into the dictionary
+keys = ['Ten', 'Twenty', 'Thirty']values = [10, 20, 30] Expected output:
+{'Ten': 10, 'Twenty': 20, 'Thirty': 30}
+
+
+5(ii)
+Access the value of key ‘history’ from the below dict
+sampleDict = {
+"class":{
+      "student":{
+         "name":"Mike",
+         "marks":{
+             "physics":70,
+            "history":80
+} }
+Expected output:
+80
+
+
+5(iii)
+Create a new dictionary by extracting the following keys
+from a below dictionary
+Given dictionary:
+sampleDict = { "name": "Kelly", "age":25, "salary": 8000,
+"city": "New york" } Keys to extract
+keys = ["name", "salary"] Expected output:
+{'name': 'Kelly', 'salary': 8000}
+
+
+5(iv)
+Check if a value 200 exists in a dictionary
+sampleDict = {'a': 100, 'b': 200, 'c': 300}
+Expected output:
+True
+
+
+5(v)
+Rename key city to location in the following dictionary
+sampleDict = {  "name": "Kelly",  "age":25,  "salary": 8000,
+"city": "New york"}
+Expected output:
+{  "name": "Kelly",  "age":25,  "salary": 8000,  "location": "New york"}
+
+
+5(vi)
+Change Brad’s salary to 8500 from a given Python
+dictionary
+sampleDict = {
+     'emp1': {'name': 'Jhon', 'salary': 7500},
+      'emp2': {'name': 'Emma', 'salary': 8000},
+     'emp3': {'name': 'Brad', 'salary': 6500}
+}
+Expected output:
+sampleDict = {
+'emp1': {'name': 'Jhon', 'salary': 7500},
+'emp2': {'name': 'Emma', 'salary': 8000},
+'emp3': {'name': 'Brad', 'salary': 8500}
+}
+
+
+5(vii)
+Write a Python script to concatenate following dictionaries to create a new one.
+Sample Dictionary : dic1={1:10, 2:20} dic2={3:30, 4:40} dic3={5:50,6:60}
+Expected Result : {1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60} 5(viii)
+Write a Python script to generate and print a dictionary that contains a number (between 1 and n) in the form (x, x*x).
+Sample Dictionary ( n = 5) :
+Expected Output : {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
+
+
+6(i)
+Write a Python program to print all unique values in a dictionary. Sample Data : [{"V":"S001"}, {"V": "S002"}, {"VI": "S001"}, {"VI": "S005"}, {"VII":"S005"}, {"V":"S009"},{"VIII":"S007"}]
+Expected Output : Unique Values: {'S005', 'S002', 'S007', 'S001', 'S009'}
+
+
+6(ii)
+Write a Python program to create and display all combinations of letters, selecting each letter from a different key in a dictionary.
+Sample data : {'1':['a','b'], '2':['c','d']}
+Expected Output:
+ac ad bc bd
+
+
+6(iii)
+Write a Python program to create a dictionary from a string. Note: Track the count of the letters from the string.
+Sample string : 'k2banana5'
+Expected output: {'k': 1, '2': 1, 'b': 2, 'a': 2, '5': 1}
+
+
+6(iv)
+Write a Python program to get the top three items in a shop.
+Sample data: {'item1': 45.50, 'item2':35, 'item3': 41.30, 'item4':55, 'item5': 24} Expected Output:
+item4 55
+item1 45.5
+item3 41.3
+
+
+6(v)
+Write a Python program to create a dictionary of keys x, y, and z where each key has as value a list from 11-20, 21-30, and 31-40 respectively. Access the fifth value of each key from the dictionary.
+{'x': [11, 12, 13, 14, 15, 16, 17, 18, 19],
+'y': [21, 22, 23, 24, 25, 26, 27, 28, 29],
+'z': [31, 32, 33, 34, 35, 36, 37, 38, 39]}
+15
+25
+35
+x has value [11, 12, 13, 14, 15, 16, 17, 18, 19] y has value [21, 22, 23, 24, 25, 26, 27, 28, 29] z has value [31, 32, 33, 34, 35, 36, 37, 38, 39]
+
+
+6(vi)
+Write a Python program to remove a specified dictionary from a given list. Original list of dictionary:
+[{'id': '#FF0000', 'color': 'Red'}, {'id': '#800000', 'color': 'Maroon'}, {'id': '#FFFF00', 'color': 'Yellow'}, {'id': '#808000', 'color': 'Olive'}]
+Remove id #FF0000 from the said list of dictionary:
+[{'id': '#800000', 'color': 'Maroon'}, {'id': '#FFFF00', 'color': 'Yellow'}, {'id': '#808000', 'color': 'Olive'}]
+
+
+6(vii)
+Write a Python program to filter even numbers from a given dictionary values. Original Dictionary:
+{'V': [1, 4, 6, 10], 'VI': [1, 4, 12], 'VII': [1, 3, 8]}
+Filter even numbers from said dictionary values:
+{'V': [4, 6, 10], 'VI': [4, 12], 'VII': [8]}
+Original Dictionary:
+{'V': [1, 3, 5], 'VI': [1, 5], 'VII': [2, 7, 9]}
+Filter even numbers from said dictionary values: {'V': [], 'VI': [], 'VII': [2]}
+
+
