@@ -1,0 +1,56 @@
+Questions are selected from resources available on internet.
+
+7(i)
+sampleSet = {"Yellow", "Orange", "Black"} sampleList = ["Blue", "Green", "Red"] Expected output:
+Note: Set is unordered.
+{'Green', 'Yellow', 'Black', 'Orange', 'Red', 'Blue'}
+
+
+7(ii)
+Returns a new set with all items from both sets by
+removing duplicates
+set1 = {10, 20, 30, 40, 50} set2 = {30, 40, 50, 60, 70} Expected output:
+{70, 40, 10, 50, 20, 60, 30}
+
+
+7(iii)
+Given two Python sets, update the first set with items
+that exist only in the first set and not in the second
+set.
+set1 = {10, 20, 30} set2 = {20, 40, 50} Expected output: set1 {10, 30}
+
+
+7(iv)
+Check if two sets have any elements in common. If yes,
+display the common elements.
+set1 = {10, 20, 30, 40, 50}
+set2 = {60, 70, 80, 90, 10} Expected output:
+Two sets have items in common{10}
+
+
+7(v)
+Remove items from set1 that are not common to both set1
+and set2
+set1 = {10, 20, 30, 40, 50}
+set2 = {30, 40, 50, 60, 70} Expected output:
+{40, 50, 30}
+
+
+7(vi)
+Return a set of all elements in either A or B, but not
+both
+set1 = {10, 20, 30, 40, 50} set2 = {30, 40, 50, 60, 70} Expected output:
+{20, 70, 10, 60}
+
+
+7(v)
+Write a Python program to use of frozensets.
+Note: Frozensets behave just like sets except they are immutable.
+
+
+7(vi)
+Write a Python program to find maximum and the minimum value in a set.
+
+
+7(v)
+Write a Python program to check if a given set is superset of itself and superset of another given set.
