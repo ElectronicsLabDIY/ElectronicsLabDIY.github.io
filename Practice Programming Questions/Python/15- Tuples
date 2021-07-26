@@ -1,0 +1,83 @@
+These questions are selected from various resources on internet.
+
+2(i)
+Write a Python program to check whether an element exists within a tuple.
+
+2(ii)
+Write a Python program to convert a list to a tuple.
+
+2(iii)
+Write a Python program to convert a tuple to a dictionary 
+
+2(iv)
+Write a Python program to replace last value of tuples in a list. Sample list: [(10, 20, 40), (40, 50, 60), (70, 80, 90)]
+Expected Output: [(10, 20, 100), (40, 50, 100), (70, 80, 100)]
+
+2(v)
+Write a Python program convert a given string list to a tuple. Original string: python 3.0
+<class 'str'>
+Convert the said string to a tuple:
+('p', 'y', 't', 'h', 'o', 'n', '3', '.', '0') <class 'tuple'>
+
+
+3(i)
+Write a Python program calculate the product, multiplying all the numbers of a given tuple.
+Original Tuple:
+(4, 3, 2, 2, -1, 18)
+Product - multiplying all the numbers of the said tuple: -864 Original Tuple:
+(2, 4, 8, 8, 3, 2, 9)
+Product - multiplying all the numbers of the said tuple: 27648
+
+
+3(ii)
+Write a Python program to calculate the average value of the numbers in a given tuple of tuples.
+Original Tuple:
+((10, 10, 10, 12), (30, 45, 56, 45), (81, 80, 39, 32), (1, 2, 3, 4))
+Average value of the numbers of the said tuple of tuples: [30.5, 34.25, 27.0, 23.25]
+Original Tuple:
+((1, 1, -5), (30, -15, 56), (81, -60, -39), (-10, 2, 3)) Average value of the numbers of the said tuple of tuples: [25.5, -18.0, 3.75]
+
+
+3(iii)
+Write a Python program to convert a given tuple of positive integers into an integer. Original tuple:
+(1, 2, 3)
+Convert the said tuple of positive integers into an integer:
+123
+Original tuple:
+(10, 20, 40, 5, 70)
+Convert the said tuple of positive integers into an integer: 102040570
+
+
+3(iv)
+Write a Python program to compute the sum of all the elements of each tuple stored inside a list of tuples.
+Original list of tuples:
+[(1, 2), (2, 3), (3, 4)]
+Sum of all the elements of each tuple stored inside the said list of tuples: [3, 5, 7]
+Original list of tuples:
+[(1, 2, 6), (2, 3, -6), (3, 4), (2, 2, 2, 2)]
+Sum of all the elements of each tuple stored inside the said list of tuples: [9, -1, 7, 8]
+
+
+4(i)
+Unpack the following tuple into 4 variables
+aTuple = (10, 20, 30, 40)
+Expected output:
+aTuple = (10, 20, 30, 40)
+# Your codeprint(a) # should print 10print(b) # should print 20print(c) # should print 30print(d) # should print 40
+
+4(ii)
+Modify the first item (22) of a list inside a following tuple to 222
+tuple1 = (11, [22, 33], 44, 55) Expected output:
+tuple1: (11, [222, 33], 44, 55)
+
+4(iii)
+Counts the number of occurrences of item 50 from a tuple
+tuple1 = (50, 10, 60, 70, 50) 
+Expected output:2
+
+
+4(iv)
+Copy element 44 and 55 from the following tuple into a
+new tuple
+tuple1 = (11, 22, 33, 44, 55, 66) Expected output:
+tuple2: (44, 55)
