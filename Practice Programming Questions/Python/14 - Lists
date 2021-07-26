@@ -1,0 +1,31 @@
+These questions are selected from various resources on internet.
+
+1)
+Reverse a given list in Python - aLsit = [100, 200, 300, 400, 500] 1-(ii)
+Concatenate two lists index-wise
+Given:
+list1 = ["M", "na", "i", "Pra"] list2 = ["y", "me", "s", "tham"]
+
+2)
+Given a Python list of numbers. Turn every item of a list into its square- aList = [1, 2, 3, 4, 5, 6, 7]
+
+3)
+Given a two Python list. Iterate both lists
+simultaneously such that list1 should display item in
+original order and list2 in reverse order
+Given
+list1 = [10, 20, 30, 40] list2 = [100, 200, 300, 400] Expected output:
+10 40020 30030 20040 100
+
+4)
+Given a Python list, find value 20 in the list, and if
+it is present, replace it with 200. Only update the
+first occurrence of a value
+Given
+list1 = [5, 10, 15, 20, 25, 50, 20] Expected output:
+list1 = [5, 10, 15, 200, 25, 50, 20]
+
+5)
+Write a Python program to get a list, sorted in increasing order by the last element in each tuple from a given list of non-empty tuples.
+Sample List : [(2, 5), (1, 2), (4, 4), (2, 3), (2, 1)]
+Expected Result : [(2, 1), (1, 2), (2, 3), (4, 4), (2, 5)]
