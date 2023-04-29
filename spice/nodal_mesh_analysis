@@ -1,0 +1,10 @@
+*Nodal and Mesh Analysis
+V1 1 0 5V
+R1 1 2 100
+R2 2 0 100
+R3 2 0 200
+
+.control
+op
+.endc
+.end
